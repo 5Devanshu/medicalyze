@@ -1,0 +1,39 @@
+{
+  "symptoms": [
+    {
+      "symptom": "fever",
+      "followUpQuestions": [
+        {
+          "question": "How high is your fever?",
+          "options": ["mild", "moderate", "high"]
+        },
+        {
+          "question": "How did it trigger?",
+          "options": ["after exercise", "viral infection", "unknown"]
+        }
+      ],
+      "diagnosis": {
+        "1": { "message": "Minimal fever, usually not concerning.", "medicine": "Consider rest and hydration." },
+        "2": { "message": "Slight fever, often due to minor infections.", "medicine": "Consider taking acetaminophen or ibuprofen." }
+      }
+    },
+    {
+      "symptom": "headache",
+      "followUpQuestions": [
+        {
+          "question": "How severe is your headache?",
+          "options": ["mild", "moderate", "severe"]
+        }
+      ],
+      "diagnosis": {
+        "1": { "message": "Mild headache, likely not concerning.", "medicine": "Consider rest and hydration." },
+        "2": { "message": "Moderate headache; it may be worth consulting a doctor.", "medicine": "Take over-the-counter pain relievers." }
+      }
+    }
+  ],
+  "doctors": {
+    "fever": [
+      { "name": "Dr. John Smith", "specialty": "General Practitioner", "contact": "555-0123" }
+    ]
+  }
+}

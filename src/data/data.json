@@ -1,0 +1,19 @@
+[
+    {
+      "symptom": "fever",
+      "diagnosis": "Possible flu or infection."
+    },
+    {
+      "symptom": "headache",
+      "diagnosis": "Could be a migraine or tension headache."
+    },
+    {
+      "symptom": "cough",
+      "diagnosis": "Possible cold or respiratory infection."
+    },
+    {
+      "symptom": "fatigue",
+      "diagnosis": "Can be due to lack of sleep or other underlying conditions."
+    }
+  ]
+  
